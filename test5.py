@@ -19,16 +19,6 @@ def count_characters(file_name):
                 character_count[char] = 1
         return character_count
 
-
-# print(count_characters(file_name))
-
-# def frequency_analysis(file_name):
-#     char_count = count_characters(file_name)
-#     total_chars = find_len_file(file_name)
-#     frequency_list = [(char, (count * 100) / total_chars) for char, count in char_count.items()]
-#     frequency_list.sort(key=lambda x: x[1], reverse=True)
-#     return frequency_list
-
 def frequency_analysis(file_name):
     char_count = count_characters(file_name)
     total_chars = find_len_file(file_name)
