@@ -89,3 +89,6 @@ def frequency_analysis(file_name):
 
 frequency_list = frequency_analysis(file_name)
 print("Character Frequency Analysis:")
+
+for char, letter in frequency_list.items():
+    print(f"{char} -> {letter}")
